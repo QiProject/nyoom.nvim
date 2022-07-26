@@ -151,5 +151,12 @@
 ;; Notes: orgmode was previously supported, but its quite buggy and not up to part with emacs. I think neorg is the way to go. 
 (use-package! :nvim-neorg/neorg {:config (load-file :neorg) :ft :norg :after :nvim-treesitter})
 
+
+
+;; my setup
+(use-package! :akinsho/toggleterm.nvim {:config (call-setup :toggleterm)})
+
+
 ;; At the end of the file, the unpack! macro is called to initialize packer and pass each package to the packer.nvim plugin.
+
 (unpack!)
