@@ -52,7 +52,7 @@
 (set! noruler)
 
 ;; Numbering
-(set! nonumber)
+(set! number)
 
 ;; Smart search
 (set! smartcase)
