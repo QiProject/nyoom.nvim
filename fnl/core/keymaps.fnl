@@ -72,5 +72,8 @@
                                   "f" ["<cmd>Telescope current_buffer_fuzzy_find<cr>" "Grep Buffer"]
                                   "r" ["<cmd>Telescope old_files<cr>" "Recent Files"]}})
 
+;; my config
+(which-key.register {"<C-\\>" ["<cmd>ToggleTerm<CR>" "toggle term"]})
+
 {: set-lsp-keys!
  : set-cmdline-keys!}
