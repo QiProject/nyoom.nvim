@@ -155,6 +155,8 @@
 
 ;; my setup
 (use-package! :akinsho/toggleterm.nvim {:config (call-setup :toggleterm)})
+;(use-package! :ggandor/leap.nvim {:config (load-file :leap)})
+;(use-package! :ggandor/leap.nvim)
 
 
 ;; At the end of the file, the unpack! macro is called to initialize packer and pass each package to the packer.nvim plugin.
